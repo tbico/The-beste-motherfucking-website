@@ -1,0 +1,99 @@
+<style>
+.salut { color:#c0392b; 
+    font-weight: 600;
+    text-decoration:underline
+}
+.hello { 
+    color: #730000;
+}
+a {
+    color:#07a
+}
+body {
+    font-family: Open Sans, Arial;
+    color: #454545;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.4;
+    text-align:justify;
+
+}
+small {
+    font-size:.4em
+}
+cursor { 
+    wait;
+
+}
+
+.WTF {
+    font-family: monospace;
+    font-size: .9em
+}
+
+span.truc {
+    color: #444;
+    font-weight:700
+}
+
+span.truc :before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color:#444
+}
+
+span.machin {
+    color: #454545;
+    font-weight:700
+}
+
+span.machin :before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:#454545
+
+    div.position
+    {
+        float: left;
+        width: 40%;
+        overflow: hidden;
+        margin-right:10px
+    }
+    
+    div.fancyPositioning div.picture-left img {
+        width:100%
+    }
+    
+    div.fancyPositioning div.picture-left figure {
+        margin:10px
+    }
+    
+    div.fancyPositioning div.picture-left figure figcaption {
+        font-size:.7em
+    }
+    
+    div.fancyPositioning div.tleft {
+        float: left;
+        width:55%
+    }
+    
+    div.fancyPositioning div.tleft p:first-child {
+        margin-top:0
+    }
+    
+    div.fancyPositioning:after {
+        display: block;
+        content: "";
+        clear:both
+    }
+</style>
